@@ -1,0 +1,81 @@
+/* Reset margin for the body element */
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #FDE2BB;
+}
+
+/* Rest of your styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9CBA5;
+    padding: 10px;
+    z-index: 100; /* Ensure the header is above other elements */
+}
+
+.container {
+    margin-top: 200px; /* Adjust margin to make space below the header */
+    color: black;
+    padding: 20px 40px;
+    border: none;
+    font-size: 40px;
+  }
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    color: black;
+}
+
+.amongus {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    color: black;
+    margin: 30px;
+    font-size: 80px;
+}
+
+.game-button {
+    margin-top: 125px; /* Adjust margin to make space below the header */
+    color: white;
+    background-color: #95C7CC;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.game-button:hover {
+    background-color: #6699A1; /* Change to the color you want on hover */
+}
+
+.game-button:active {
+    background-color: #507c83; /* Change to the color you want on hover */
+}
+
+p {
+    color: #95C7CC;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    z-index: 100; /* Ensure the footer is above other elements */
+}
